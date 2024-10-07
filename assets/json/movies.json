@@ -1,0 +1,29 @@
+[
+    {
+        "img": "assets/img/movie-cover/kung-fu-panda.jpg",
+        "nome": "Kung fu Panda",
+        "sinopse": "Uma poderosa feiticeira que muda de forma coloca os olhos no Cajado da Sabedoria. Po de repente percebe que precisa de ajuda e logo descobre que heróis podem ser encontrados nos lugares mais inesperados.",
+        "trailer": "https://www.youtube.com/embed/_inKs4eeHiI?si=XXiK3PulT4Wa9IE-",
+        "link": "",
+        "recommendation": "assets/img/classification/L.png",
+        "categories": "Animação"
+    },
+    {
+        "img": "assets/img/movie-cover/planeta-dos-macacos-o-reinado.jpg",
+        "nome": "Planeta dos Macacos O Reinado",
+        "sinopse": "Muitas sociedades de macacos cresceram desde quando César levou seu povo a um oásis, enquanto os humanos foram reduzidos a sobreviver e se esconder nas sombras. Um líder macaco começa a escravizar outros grupos para encontrar tecnologia humana, enquanto um jovem macaco, que viu seu clã ser capturado, embarca em uma viagem para encontrar a liberdade, sendo uma jovem humana a chave para todos.",
+        "trailer": "https://www.youtube.com/embed/NmTPDA15lPA?si=5BrwFEMVyEG0A-56",
+        "link": "",
+        "recommendation": "assets/img/classification/16.png",
+        "categories": "Ação"
+    },
+    {
+        "img": "assets/img/movie-cover/garfiel-fora-de-casa.jpg",
+        "nome": "Garfield Fora De Casa",
+        "sinopse": "Garfield tem um reencontro inesperado com seu pai, que estava há muito tempo desaparecido - um gato de rua todo desengonçado que atrai o filho para um assalto de alto risco.",
+        "trailer": "https://www.youtube.com/embed/0yIO8HHoB0g?si=6VTy0X1eb0G2cuxK",
+        "link": "",
+        "recommendation": "assets/img/classification/L.png",
+        "categories": "Animação"
+    }
+]

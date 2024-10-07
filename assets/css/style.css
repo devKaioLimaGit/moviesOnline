@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 3px solid #ff0000;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+}
+
+.nav-bar-categories {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: black;
+  width: 400px;
+  box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8);
+}
+
+.button-categorie {
+  width: 360px;
+  margin: 10px;
+  background-color: #ff0000;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.button-voltar {
+  width: 100%;
+  background-color: #ff0000;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.button-categorie:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.1ms ease;
+  box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8);
+}
+
+.button-genre {
+  background-color: #ff0000;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8);
+}
+
+.button-genre:hover {
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.1ms ease;
+}
+
+.button-categorie:hover {
+  background-color: white;
+  color: #ff0000;
+  transition: 0.1ms ease;
+}
+
+.anuios {
+  background-color: black;
+  width: 400px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/background/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+header > h1 > span {
+  color: #ff0000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+header > input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 20px;
+  box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8); /* Sombra borrada vermelha mais forte e maior */
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-filme {
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+  color: #fff;
+  display: flex;
+  background-color: #000;
+  box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.8);
+}
+
+.sub-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+.name-filme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-card {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-card > img {
+  width: 400px;
+  height: 600px;
+}
+
+.description {
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.sinopse {
+  color: #fff;
+  text-align: justify;
+}
+
+.button-watch {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff0000;
+  color: white;
+}
+
+.button-watch:hover {
+  background-color: white;
+  color: #ff0000;
+  transition: 1s ease-in-out;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+}
+
+.filmes {
+  width: 100%;
+  height: 100%;
+}
+
+.model-filme {
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.model-filme > h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.model-filme > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
